@@ -83,6 +83,11 @@ I edited the local rules file using `sudo nano /etc/snort/rules/local.rules` to 
 *   `-c /etc/snort/snort.conf`: Points Snort to the main configuration file to load the custom rules.
 *   `-A console`: Instructs Snort to print alerts directly to the terminal screen in real-time (Fast Alert mode).
 
+**Result / Evidence:**
+<br>
+
+![Snort Initializing](images/init.png)
+
 ---
 
 ### 4. Triggering & Analyzing Alerts

@@ -1,6 +1,6 @@
 # Cybersecurity: Snort IDS Configuration & Traffic Analysis
 
-## 📖 Table of Contents
+## Table of Contents
 - [Introduction](#-introduction)
 - [Objective](#-objective)
 - [Lab Environment](#️-lab-environment)
@@ -22,7 +22,7 @@ A Snort rule is a text-based instruction that tells the engine exactly what type
 ## Objective
 To deploy, configure, and operate Snort as a Network Intrusion Detection System (NIDS). The objective is to write custom detection signatures (rules) and validate their effectiveness by generating alerts for specific network anomalies, including ICMP sweeps, aggressive Port Scans, and SSH Brute Force attacks.
 
-## 🛠️ Lab Environment
+## Lab Environment
 *   **Operating System:** Kali Linux (IDS Sensor)
 *   **Target/Sensor IP:** `10.92.192.153`
 *   **Attacker IP:** `10.92.192.191` (and Windows host for ICMP)

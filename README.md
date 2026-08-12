@@ -1,4 +1,4 @@
-# 🛡️ Cybersecurity: Snort IDS Configuration & Traffic Analysis
+# Cybersecurity: Snort IDS Configuration & Traffic Analysis
 
 ## 📖 Table of Contents
 - [Introduction](#-introduction)
@@ -14,12 +14,12 @@
 
 ---
 
-## 📖 Introduction
+## Introduction
 Snort is an industry-standard, open-source Network Intrusion Detection System (NIDS) and Intrusion Prevention System (NIPS). It allows security professionals and network administrators to monitor network traffic in real-time, analyze packets, detect suspicious or malicious activities, and generate alerts based on predefined or custom rules. 
 
 A Snort rule is a text-based instruction that tells the engine exactly what type of network traffic to inspect and what action to take when a specific pattern is detected. These rules are processed sequentially to identify everything from basic reconnaissance to advanced exploitation attempts.
 
-## 🎯 Objective
+## Objective
 To deploy, configure, and operate Snort as a Network Intrusion Detection System (NIDS). The objective is to write custom detection signatures (rules) and validate their effectiveness by generating alerts for specific network anomalies, including ICMP sweeps, aggressive Port Scans, and SSH Brute Force attacks.
 
 ## 🛠️ Lab Environment
@@ -32,7 +32,7 @@ To deploy, configure, and operate Snort as a Network Intrusion Detection System 
 
 ---
 
-## 🚀 Methodology & Practical Tasks
+## Methodology & Practical Tasks
 
 ### 1. Installation & Configuration
 **Objective:** To install the Snort engine and verify the configuration files.
@@ -109,12 +109,12 @@ The Snort engine successfully intercepted the packets in real-time, matched the 
 
 ---
 
-## 📊 Executive Summary & Conclusion
+## Executive Summary & Conclusion
 The Snort command is a powerful, flexible, and open-source network security tool that plays a vital role in protecting computer networks. In this lab, Snort was successfully configured from the ground up as a Network Intrusion Detection System (NIDS). 
 
 By writing custom detection rules, the engine was able to successfully identify and alert on reconnaissance attempts (ICMP/Port Scanning) and active exploitation attempts (SSH Connections). Its real-time traffic analysis, customizable rule engine, and threat detection capabilities prove why it is so widely used in cybersecurity labs, enterprise networks, and Security Operations Centers (SOCs) globally.
 
 ---
 
-## ⚖️ Ethical Guidelines & Disclaimer
+## Ethical Guidelines & Disclaimer
 This intrusion detection deployment and subsequent attack simulation were conducted entirely within a private, self-hosted Virtual Machine laboratory network. All traffic generation, scanning, and monitoring were performed strictly for educational and defensive cybersecurity training purposes.

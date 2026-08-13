@@ -41,7 +41,6 @@ To deploy, configure, and operate Snort as a Network Intrusion Detection System 
 Snort was installed and verified via the Kali Linux apt package manager. Once verified, the primary configuration file (`snort.conf`) was accessed to ensure the environment variables and network interfaces were properly defined for the local subnet.
 *   **Commands executed:** 
     *   `sudo apt install snort`
-    *   `sudo nano /etc/snort/snort.conf`
 
 **Result / Evidence:**
 <br>
